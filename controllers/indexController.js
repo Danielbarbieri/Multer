@@ -1,4 +1,4 @@
-module.exports = {
+const indexController = {
     viewCadastro: (req, res) => {
         return res.render('index');
 },
@@ -7,3 +7,5 @@ salvarCadastro: (req, res) => {
     
 }
 };
+
+module.exports = indexController;
